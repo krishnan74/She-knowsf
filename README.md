@@ -1,31 +1,12 @@
-# Create a chat dApp using Solidity and ReactJS
 
-## Introduction
-In this tutorial we will build a decentralized chat application on Avalanche's Fuji test-network from scratch. The dApp will allow users to connect with other people and chat with them. We will develop our smart contract using Solidity which will be deployed on Avalanche's C-chain. We will have a basic, easy-to-use UI developed using ReactJS. So, let us begin!
-
-## Prerequisites
-
-* Basic familiarity with Reactjs and Solidity
-* Should've completed [Deploy a Smart Contract on Avalanche using Remix and MetaMask](https://learn.figment.io/network-documentation/avalanche/tutorials/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask) tutorial
-
-## Requirements
-
-* [Node.js](https://nodejs.org/en/download/releases/) v10.18.0+
-* [Metamask extension](https://metamask.io/download.html) on your browser
-
-## Implementing the smart contract
-
-Our chat dApp needs the basic functionality allowing users to connect with and share messages with friends. To accomplish this, we will write the functions responsible for creating an account, adding friends and sending messages.
-
-### Account creation
-
-We will define 3 functions :
-
-* The `checkUserExists(pubkey)` function is used to check if a user is registered with our application or not. It will help make sure duplicate users are not created and it will also be called from other functions to check their existence.
-
-* The `createAccount(username)` function registers a new user on the platform with the provided username.
-
-* The `getUsername(pubkey)` function will return the username of the given user if it exists.
+Step to run the program : 
+	Step 1: Pull the folder from the Provided link
+	Step 2: Replace 'YOUR LINK HERE' with the local host by running the following commands
+		Step 2.1: /period-tracker/src/ npm start
+		Step 2.2: Replace the local host link at the period tracker button
+		Step 2.3: /DOC CHAT APP/ start index.html
+		Step 2.4: Replace the local host link at Doc-Chat and Need a consultant? buttons
+	Step 3: Now run / start index.html
 
 ### Adding friends
 
